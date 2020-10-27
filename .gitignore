@@ -1,2 +1,14 @@
 *.log
 *.m~
+*.ltx
+*.info
+*.link_summary
+*.pb
+*.json
+
+codegen/mex/fir_filter/*.mexa64
+codegen/mex/fir_filter/*.mat
+codegen/mex/fir_filter/*.xclbin
+codegen/mex/fir_filter/build/*
+codegen/mex/fir_filter/.Xil/*
+codegen/mex/fir_filter/_x/*

@@ -1,0 +1,12 @@
+MEX {
+	global:
+		mexFunction;
+		mexfilerequiredapiversion;
+		emlrtMexFcnProperties;
+		fir_filter_initialize;
+		fir_filter_terminate;
+		fir_filter_atexit;
+		fir_filter;
+	local:
+		*;
+};
