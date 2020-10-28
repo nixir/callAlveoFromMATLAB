@@ -12,8 +12,8 @@ There are some limitations in the MEX execution of MATLAB, so it is not likely t
 	 - In the dynamic linking of the library, an error occurs when executing it because different versions of the library are linked depending on the environment.
 
 Please see 
-https://github.com/nixir/callAlveoFromMATLAB/blob/main/run.fish
-https://github.com/nixir/callAlveoFromMATLAB/blob/main/codegen/mex/fir_filter/interface/_coder_fir_filter_api.c
+ - https://github.com/nixir/callAlveoFromMATLAB/blob/main/run.fish
+ - https://github.com/nixir/callAlveoFromMATLAB/blob/main/codegen/mex/fir_filter/interface/_coder_fir_filter_api.c
 
 ## Build
 
