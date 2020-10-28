@@ -1,6 +1,6 @@
-# call Alveo (accelarating card) from MATLAB example
+# call Alveo (accelerating card) from MATLAB example
 
-An example of how to execute an operation in Alveo from MATLAB.
+An example of how to execute an operation in Xilinx Alveo accelerating card from MATLAB.
 
 This README.md is under CC BY 4.0 license , although this repository is not free because the license of the cited repository is unknown.
 ## How to execute
@@ -20,7 +20,7 @@ https://github.com/nixir/callAlveoFromMATLAB/blob/main/codegen/mex/fir_filter/in
  1. Move ./codegen/mex/fir_filter
  2. Set your card name at design.cfg
  3. Build with ninja (Maybe need some uncomment. Please see build.ninja)
- 5. Copy mex file and xclbin to top directory
+ 4. Copy mex file and xclbin to top directory
 
 ## Outputs
 ```
