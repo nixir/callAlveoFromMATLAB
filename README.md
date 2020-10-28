@@ -1,6 +1,6 @@
-# call Alveo (accelerating card) from MATLAB example
+# call Alveo (accelerator card) from MATLAB example
 
-An example of how to execute an operation in Xilinx Alveo accelerating card from MATLAB.
+An example of how to execute an operation in Xilinx Alveo accelerator card from MATLAB.
 
 This README.md is under CC BY 4.0 license , although this repository is not free because the license of the cited repository is unknown.
 ## How to execute
