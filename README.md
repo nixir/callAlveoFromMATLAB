@@ -2,13 +2,13 @@
 
 An example of how to execute an operation in Xilinx Alveo accelerator card from MATLAB.
 
-This README.md is under CC BY 4.0 license , although this repository is not free because the license of the cited repository is unknown.
+This README.md is under CC BY 4.0 license , although whole this repository is not free to use because the license of the referd repository is unknown.
 ## How to execute
-There are some limitations in the MEX execution of MATLAB, so it is not likely to be possible to run it in Alveo as it is.
+There are some limitations in the MEX execution of MATLAB, so it is not likely to be possible to run acceleration in Alveo as it is.
 
  - The MEX executable does not accept standard input.
-	 - We need to write the path to the xclbin file directly to the source code.
- - MATLAB ignores the LD_PRELOAD environment variable.
+	 - We need to write the path to the xclbin file directly to the source code or to pass path via mex API.
+ - MATLAB overwrites the LD_PRELOAD environment variable.
 	 - In the dynamic linking of the library, an error occurs when executing it because different versions of the library are linked depending on the environment.
 
 Please see 
